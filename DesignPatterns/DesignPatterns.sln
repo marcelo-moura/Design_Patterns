@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Builder", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", "DesignPatterns.Prototype\DesignPatterns.Prototype.csproj", "{D54ADBF0-EA6D-4693-B3F1-FB626B1F0472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Singleton", "DesignPatterns.Singleton\DesignPatterns.Singleton.csproj", "{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Criacional", "Criacional", "{8876A365-0E8C-4944-8F4E-05E75914A4ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,20 @@ Global
 		{D54ADBF0-EA6D-4693-B3F1-FB626B1F0472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54ADBF0-EA6D-4693-B3F1-FB626B1F0472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54ADBF0-EA6D-4693-B3F1-FB626B1F0472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB61A5A8-3D40-495D-ABBC-C38B9A72318C} = {8876A365-0E8C-4944-8F4E-05E75914A4ED}
+		{430660F5-D007-454B-A7CD-3E96B2B483F3} = {8876A365-0E8C-4944-8F4E-05E75914A4ED}
+		{7BB86F7F-2D92-4DD0-A660-8BFD51FB33CC} = {8876A365-0E8C-4944-8F4E-05E75914A4ED}
+		{D54ADBF0-EA6D-4693-B3F1-FB626B1F0472} = {8876A365-0E8C-4944-8F4E-05E75914A4ED}
+		{4FB41F1E-EBE1-4BD7-8AE4-863DF0E55686} = {8876A365-0E8C-4944-8F4E-05E75914A4ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8024AEAA-C816-49A5-B1A2-613D14F79858}
