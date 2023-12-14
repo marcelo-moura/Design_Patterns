@@ -33,13 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Proxy", "Des
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamental", "Comportamental", "{6039EC1A-429F-4D05-A6D7-B738099AC6A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMethod", "DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj", "{BE3AA73B-8FE1-4D5D-9272-CA4E8E16B1D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.TemplateMethod", "DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj", "{BE3AA73B-8FE1-4D5D-9272-CA4E8E16B1D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ChainOfResponsibility", "DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{79BB4684-FC66-4D23-A79D-EFC40398C7D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ChainOfResponsibility", "DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{79BB4684-FC66-4D23-A79D-EFC40398C7D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Command", "DesignPatterns.Command\DesignPatterns.Command.csproj", "{F1CA4940-A6A2-439F-A380-738ADF57F5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Command", "DesignPatterns.Command\DesignPatterns.Command.csproj", "{F1CA4940-A6A2-439F-A380-738ADF57F5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Iterator", "DesignPatterns.Iterator\DesignPatterns.Iterator.csproj", "{4554C020-3E1F-445D-85B6-9DA282F49258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Iterator", "DesignPatterns.Iterator\DesignPatterns.Iterator.csproj", "{4554C020-3E1F-445D-85B6-9DA282F49258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Mediator", "DesignPatterns.Mediator\DesignPatterns.Mediator.csproj", "{0A6884A7-6410-4EEF-AF33-190289A23B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{4554C020-3E1F-445D-85B6-9DA282F49258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4554C020-3E1F-445D-85B6-9DA282F49258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4554C020-3E1F-445D-85B6-9DA282F49258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6884A7-6410-4EEF-AF33-190289A23B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6884A7-6410-4EEF-AF33-190289A23B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6884A7-6410-4EEF-AF33-190289A23B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6884A7-6410-4EEF-AF33-190289A23B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{79BB4684-FC66-4D23-A79D-EFC40398C7D4} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 		{F1CA4940-A6A2-439F-A380-738ADF57F5D7} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 		{4554C020-3E1F-445D-85B6-9DA282F49258} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
+		{0A6884A7-6410-4EEF-AF33-190289A23B1E} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8024AEAA-C816-49A5-B1A2-613D14F79858}
