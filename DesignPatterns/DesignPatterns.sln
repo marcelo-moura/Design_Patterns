@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.State", "Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{7C100027-68AC-4C44-A989-3408CB2FB473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Visitor", "DesignPatterns.Visitor\DesignPatterns.Visitor.csproj", "{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{7C100027-68AC-4C44-A989-3408CB2FB473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C100027-68AC-4C44-A989-3408CB2FB473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C100027-68AC-4C44-A989-3408CB2FB473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{71CD0EA7-67E9-406D-A81C-D1958BAE3AE0} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 		{9CA628C0-531D-4707-82ED-1988345C5681} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 		{7C100027-68AC-4C44-A989-3408CB2FB473} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
+		{C6139E93-1B07-469C-A76B-3B6D8BBC2FB8} = {6039EC1A-429F-4D05-A6D7-B738099AC6A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8024AEAA-C816-49A5-B1A2-613D14F79858}
